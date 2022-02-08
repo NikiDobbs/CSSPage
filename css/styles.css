@@ -24,11 +24,41 @@ h3 {
   color: #66BFBF;
 }
 
+hr {
+  border-style: dotted none none;
+  border-color: #66BFBF;
+  border-width: 10px;
+  width: 7%;
+  margin: 70px auto 70px auto;
+}
+
+.hello {
+  margin-top: 20px;
+}
+
+.bio-text {
+text-align: center;
+color: #40514E;
+}
+
 .top-container {
-  background-color: #E3FDFD;
+  background-image: url("images/Triangles.png");
   padding-top: 100px;
+  padding-bottom: 100px;
   position: relative;
 }
+
+
+.middle-container {
+  padding-bottom: 50px;
+  background-color: #fdeddd;
+}
+
+.bottom-container {
+  padding: 30px;
+  background-color: #66BFBF;
+}
+
 
 .twitch-logo {
   width: 25%;
@@ -50,14 +80,47 @@ h3 {
   line-height: 2;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
+.more-space-pls {
+  margin-bottom: 50px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
+.contact-me {
+  line-height: 2;
+}
+
+.btn {
+  background: #90f5f5;
+  background-image: -webkit-linear-gradient(top, #90f5f5, #66BFBF);
+  background-image: -moz-linear-gradient(top, #90f5f5, #66BFBF);
+  background-image: -ms-linear-gradient(top, #90f5f5, #66BFBF);
+  background-image: -o-linear-gradient(top, #90f5f5, #66BFBF);
+  background-image: linear-gradient(to bottom, #90f5f5, #66BFBF);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #77dbdb);
+  background-image: -moz-linear-gradient(top, #66BFBF, #77dbdb);
+  background-image: -ms-linear-gradient(top, #66BFBF, #77dbdb);
+  background-image: -o-linear-gradient(top, #66BFBF, #77dbdb);
+  background-image: linear-gradient(to bottom, #66BFBF, #77dbdb);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 20px;
+}
+
+.copyright {
+  margin-top: 40px;
+  color: #EAF6F6;
 }
